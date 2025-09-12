@@ -1,3 +1,8 @@
+
+
+body{
+  background-color: #333;
+}
 header{
   background-color: #ddd;
 }
@@ -36,6 +41,45 @@ a{
 .container{
    max-width: 1520px;
   margin: auto;
+}
+.hero-section{
+  padding: 50px 0;
+}
+.hero-section h3{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 16px 0;
+}
+.hero-section h1{
+  font-size: 64px;
+  color: #fff;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1;
+}
+.hero-section h3 span{
+  color: #0ef;
+}
+.hero-section p{
+  color: #fff;
+  font-size: 18px;
+}
+.hero-section .social-icon{
+  margin-bottom: 35px;
+}
+.hero-section .social-icon a{
+     color: #0ef;
+    margin-right: 10px;
+    border: 1px solid #0ef;
+    padding: 6px 9px;
+    border-radius: 100%;
+}
+.HeroBtn{
+  color: #333;
+    background: #0ef;
+    padding: 7px 15px 10px;
+    border-radius: 31px;
 }
 
 /* Hero Section End */
