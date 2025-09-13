@@ -5,7 +5,7 @@ const Layout = () => {
         <>
             <header>
                 <div className="container">
-                    <Link to="/" className="logo">Logo</Link>
+                    <Link to="/" className="logo">Portfolio</Link>
                     <nav>
                         <ul>
                             <li>
@@ -14,15 +14,16 @@ const Layout = () => {
                             <li>
                                 <Link to="/about">About</Link>
                             </li>
+                             <li>
+                                <Link to="/services">Services</Link>
+                            </li>
                             <li>
                                 <Link to="/blogs">Blogs</Link>
                             </li>
                             <li>
                                 <Link to="/contact">Contact</Link>
                             </li>
-                            <li>
-                                <Link to="/nopage">NoPage</Link>
-                            </li>
+                           
                         </ul>
                     </nav>
                 </div>
